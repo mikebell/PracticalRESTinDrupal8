@@ -1,0 +1,12 @@
+uuid: c7574413-b98b-43f3-8d00-f092eb87069a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - hello@mikebell.io
+reply: ''
+weight: 0

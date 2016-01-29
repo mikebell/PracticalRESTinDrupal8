@@ -1,0 +1,14 @@
+uuid: a9d6b46f-8724-4e1e-8500-f9b9d0897215
+name: 'Practical Guide to REST in Drupal 8'
+mail: hello@mikebell.io
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
