@@ -1,0 +1,24 @@
+uuid: 46f13b0e-b8a3-4df2-be51-81a54b435c66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slide.body
+    - node.type.slide
+  module:
+    - text
+    - user
+id: node.slide.default
+targetEntityType: node
+bundle: slide
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

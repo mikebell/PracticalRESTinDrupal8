@@ -1,5 +1,6 @@
 module:
   automated_cron: 0
+  basic_auth: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -31,6 +32,7 @@ module:
   search: 0
   serialization: 0
   shortcut: 0
+  simple_oauth: 0
   system: 0
   taxonomy: 0
   text: 0

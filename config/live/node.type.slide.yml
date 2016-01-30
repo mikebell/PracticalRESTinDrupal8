@@ -1,0 +1,18 @@
+uuid: 856c1571-6a30-4468-af03-3f4e2ab37329
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Slide
+type: slide
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false
