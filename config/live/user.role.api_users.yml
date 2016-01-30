@@ -6,4 +6,11 @@ id: api_users
 label: 'API Users'
 weight: 3
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access content'
+  - 'restful get entity:node'
+  - 'restful patch entity:node'
+  - 'restful post entity:node'
+  - 'administer access token entities'
+  - 'add access token entities'
+  - 'edit own access token entities'
