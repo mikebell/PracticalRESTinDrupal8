@@ -14,3 +14,4 @@ web/sites/default/files
 
 services.yml
 settings.php
+settings.local.php
