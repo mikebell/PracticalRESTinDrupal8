@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d599bcaa9c402a948a81e714e20224d2",
-    "content-hash": "c7321b8ec3b1a3718ce640cbe5820cd1",
+    "hash": "6f85cd8cc9cd82260e7c42cec71cb094",
+    "content-hash": "b18abe0491fea197f9d7f2d68aeed2e7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -979,6 +979,33 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2016-01-06 22:36:23"
+        },
+        {
+            "name": "drupal/oauth",
+            "version": "8.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/oauth",
+                "reference": "8f74649b16613f75d37f33063ef80191d5a54216"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/oauth-8.x-2.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-2.x": "8.2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "description": "Provides OAuth 1.0a server authentication",
+            "homepage": "https://www.drupal.org/project/oauth"
         },
         {
             "name": "drupal/restui",

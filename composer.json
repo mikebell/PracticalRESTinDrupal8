@@ -23,7 +23,8 @@
         "drupal/console": "~0.10",
         "drupal/simple_oauth": "8.x",
         "drupal/config_installer": "^8.1",
-        "drupal/restui": "^8.1"
+        "drupal/restui": "^8.1",
+        "drupal/oauth": "^8.2"
     },
     "require-dev": {
         "behat/mink": "~1.6",
