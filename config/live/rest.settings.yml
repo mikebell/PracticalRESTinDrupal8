@@ -2,21 +2,25 @@ resources:
   'entity:node':
     GET:
       supported_formats:
+        - hal_json
         - json
       supported_auth:
         - oauth
     POST:
       supported_formats:
+        - hal_json
         - json
       supported_auth:
         - oauth
     DELETE:
       supported_formats:
+        - hal_json
         - json
       supported_auth:
         - oauth
     PATCH:
       supported_formats:
+        - hal_json
         - json
       supported_auth:
         - oauth
