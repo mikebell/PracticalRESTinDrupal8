@@ -7,10 +7,10 @@ label: 'API Users'
 weight: 3
 is_admin: null
 permissions:
-  - 'access content'
-  - 'restful get entity:node'
-  - 'restful patch entity:node'
-  - 'restful post entity:node'
-  - 'administer access token entities'
-  - 'add access token entities'
-  - 'edit own access token entities'
+  2: 'restful patch entity:node'
+  3: 'restful post entity:node'
+  4: 'administer access token entities'
+  5: 'add access token entities'
+  6: 'edit own access token entities'
+  7: 'access content'
+  8: 'restful get entity:node'
