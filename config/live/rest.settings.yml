@@ -4,22 +4,22 @@ resources:
       supported_formats:
         - json
       supported_auth:
-        - token_bearer
+        - oauth
     POST:
       supported_formats:
         - json
       supported_auth:
-        - token_bearer
+        - oauth
     DELETE:
       supported_formats:
         - json
       supported_auth:
-        - token_bearer
+        - oauth
     PATCH:
       supported_formats:
         - json
       supported_auth:
-        - token_bearer
+        - oauth
 link_domain: null
 _core:
   default_config_hash: E9VXRiWZNet4YVBv8j9WQmTlgb-rOjo0MiCSdgV0Guw
