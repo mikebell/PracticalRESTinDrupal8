@@ -14,3 +14,8 @@ permissions:
   6: 'edit own access token entities'
   7: 'access content'
   8: 'restful get entity:node'
+  9: 'create slide content'
+  10: 'delete any slide content'
+  11: 'delete own slide content'
+  12: 'edit any slide content'
+  13: 'edit own slide content'

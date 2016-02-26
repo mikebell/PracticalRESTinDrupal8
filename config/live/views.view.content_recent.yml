@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - node
+    - rest
     - user
 _core:
   default_config_hash: tDcmzGfShE0XJbfwJzyA6lJTUYC6X4iVu887dgoFfDg
@@ -23,9 +24,8 @@ display:
     position: 0
     display_options:
       access:
-        type: perm
-        options:
-          perm: 'access content'
+        type: none
+        options: {  }
       cache:
         type: tag
         options: {  }
@@ -298,7 +298,6 @@ display:
         - 'languages:language_interface'
         - user
         - 'user.node_grants:view'
-        - user.permissions
       max-age: -1
       tags: {  }
   block_1:
@@ -314,6 +313,28 @@ display:
         - 'languages:language_interface'
         - user
         - 'user.node_grants:view'
-        - user.permissions
       max-age: -1
+      tags: {  }
+  rest_export_1:
+    display_plugin: rest_export
+    id: rest_export_1
+    display_title: 'REST export'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      path: recentcontent
+      style:
+        type: serializer
+        options:
+          uses_fields: false
+          formats:
+            json: json
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - request_format
+        - user
+        - 'user.node_grants:view'
       tags: {  }
