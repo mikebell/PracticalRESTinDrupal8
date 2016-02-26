@@ -24,7 +24,8 @@
         "drupal/simple_oauth": "8.x",
         "drupal/config_installer": "^8.1",
         "drupal/restui": "^8.1",
-        "drupal/oauth": "^8.2"
+        "drupal/oauth": "^8.2",
+        "drupal/devel": "8.1.*@dev"
     },
     "require-dev": {
         "behat/mink": "~1.6",
