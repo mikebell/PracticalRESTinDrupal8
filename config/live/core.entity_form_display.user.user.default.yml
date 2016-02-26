@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_skills
     - field.field.user.user.user_picture
   module:
     - image
@@ -18,6 +19,14 @@ content:
     weight: -10
   contact:
     weight: 5
+  field_skills:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
   language:
     weight: 0
   timezone:
